@@ -17,7 +17,7 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-* [ ] Views should be responsive for both landscape/portrait mode
+* [x] Views should be responsive for both landscape/portrait mode
 * [ ] Display a nice default placeholder graphic for each image during loading
 * [ ] Improve the user interface through styling and coloring
 * [ ] For popular movies (i.e. a movie voted for more than 5 stars), the full backdrop image is displayed. 
@@ -26,7 +26,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough'/>
+<img src='walkthroughFlixster.gif' title='Video Walkthrough' width='' alt='Video Walkthrough'/>
 
 ## Notes
 
