@@ -1,11 +1,7 @@
-# Flixster
-# Assignment 1 - *Flixster*
+# Flix
+Flix is an app that allows users to browse movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
-**Flixster** is an android app that allows building a todo list and basic todo items management functionality including adding new items, editing and deleting an existing item.
-
-Submitted by: **ShengTso Andrew Wu**
-
-Time spent: **6** hours spent in total
+## Flix Part 1
 
 ## User Stories
 
