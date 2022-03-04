@@ -11,6 +11,8 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import com.bumptech.glide.load.resource.bitmap.CircleCrop
+import jp.wasabeef.glide.transformations.RoundedCornersTransformation
 
 const val MOVIE_EXTRA = "Movie_Extra"
 private const val TAG = "MovieAdapter"
@@ -44,9 +46,15 @@ class MovieAdapter(private val context: Context, private val movies: List<Movie>
         }
 
         fun bind(movie: Movie){
+            val radius = 40
+            val margin = 0
             tvTitle.text = movie.title
             tvTOverView.text = movie.overview
-            Glide.with(context).load(movie.posterImageUrl).into(ivPoster)
+            Glide.with(context)
+                .load(movie.posterImageUrl)
+                .centerCrop()
+                .transform(RoundedCornersTransformation(radius, margin))
+                .into(ivPoster)
         }
 
         override fun onClick(v:View) {
